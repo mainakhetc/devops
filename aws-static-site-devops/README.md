@@ -1,5 +1,11 @@
 # AWS Static Website CI/CD Pipeline
 
+# Project Status
+
+✅ Completed
+
+Last Updated: July 2026
+
 # 📖 Project Overview
 
 This project demonstrates how to automate the deployment of a static website using AWS and GitHub Actions. Every code change pushed to the GitHub repository is automatically deployed to Amazon S3, and the Amazon CloudFront cache is invalidated so users always receive the latest version of the website.
@@ -42,53 +48,36 @@ Developer ───────────────────────�
 | Frontend | HTML5, CSS3 |
 ---
 
-## Screenshots
+# Screenshots
 
-## Repository Structure
+# Repository Structure
 
 ![Repository Structure](screenshots/repository-structure.png)
 
-## Successfull Deployment
+# Successfull Deployment
 
 ![Successfull Deployment](screenshots/workflow-run.png)
 
-## GitHub Actions Workflow
+# GitHub Actions Workflow
 
 ![GitHub Actions Workflow](screenshots/github-actions-success.png)
 
-## GitHub Secrets
+# GitHub Secrets
 
 ![GitHub Secrets](screenshots/github-secrets.png)
 
-## Amazon S3 Bucket
+# Amazon S3 Bucket
 
 ![S3 Bucket](screenshots/s3-bucket.png)
 
-## Amazon CloudFront Destributiom
+# Amazon CloudFront Destributiom
 
 ![CloudFront Distribution](screenshots/cloudfront-distribution.png)
 
-## Website Homepage
+# Website Homepage
 
 ![Website Homepage](screenshots/website-homepage.png)
 
----
-
-# 📂 Repository Structure
-
-```
-devops/
-│
-├── .github/
-│   └── workflows/
-│       └── deploy-static-site.yml
-│
-├── aws-static-site-devops/
-│   ├── index.html
-│   ├── style.css
-│   ├── assets/
-│   └── README.md
-```
 ---
 
 # ✨ Key Features
@@ -115,7 +104,20 @@ devops/
 
 ---
 
-## AWS Services Used
+# Challenges Encountered
+
+• CloudFront Access Denied
+  → Resolved by configuring the S3 bucket policy and origin settings.
+
+• Incorrect Distribution ID
+  → Updated the GitHub Secret and reran the workflow.
+
+• Git push rejected
+  → Resolved by synchronizing the local and remote repositories.
+
+---
+
+# AWS Services Used
 
 ### Amazon S3
 
@@ -136,7 +138,7 @@ devops/
 
 ---
 
-## GitHub Actions Workflow
+# GitHub Actions Workflow
 
 The deployment pipeline performs the following tasks automatically:
 
@@ -149,7 +151,7 @@ Deployment is triggered automatically whenever code is pushed to the main branch
 
 ---
 
-## Security
+# Security
 
 AWS credentials are stored securely using GitHub Secrets.
 
@@ -165,7 +167,7 @@ No sensitive information is stored in the source code repository.
 
 ---
 
-## Future Improvements
+# Future Improvements
 
 * Register a custom domain
 * Configure Route 53
