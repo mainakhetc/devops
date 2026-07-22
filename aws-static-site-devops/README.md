@@ -16,11 +16,7 @@ The objective of this project is to gain practical experience with modern DevOps
 
 # Solution Architecture
 
-```
-
 ![Solution Architecture](assets/Solution-Architecture.png)
-
-```
 
 ---
 
