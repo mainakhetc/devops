@@ -6,7 +6,7 @@
 
 Last Updated: July 2026
 
-# 📖 Project Overview
+# Project Overview
 
 This project demonstrates how to automate the deployment of a static website using AWS and GitHub Actions. Every code change pushed to the GitHub repository is automatically deployed to Amazon S3, and the Amazon CloudFront cache is invalidated so users always receive the latest version of the website.
 
@@ -14,27 +14,17 @@ The objective of this project is to gain practical experience with modern DevOps
 
 ---
 
-# 🏗 Solution Architecture
+# Solution Architecture
 
 ```
-                   Git Push
-Developer ─────────────────────────────► GitHub Repository
-                                               │
-                                               ▼
-                                    GitHub Actions Workflow
-                                               │
-                    ┌──────────────────────────┴──────────────────────────┐
-                    │                                                     │
-                    ▼                                                     ▼
-          Sync Website Files                                   Invalidate CDN Cache
-           Amazon S3 Bucket                               Amazon CloudFront Distribution
-                    │                                                     │
-                    └──────────────────────► End Users ◄──────────────────┘
+
+![Solution Architecture](assets/Solution-Architecture.png)
+
 ```
 
 ---
 
-# ⚙️  Technologies Used
+# Technologies Used
 
 | Category | Technologies |
 |----------|--------------|
@@ -49,7 +39,7 @@ Developer ───────────────────────�
 
 ---
 
-# ✨ Key Features
+# Key Features
 
 - Automated CI/CD pipeline
 - Static website hosting on Amazon S3
@@ -118,8 +108,6 @@ Developer ───────────────────────�
 
 ---
 
-
-
 # AWS Services Used
 
 ### Amazon S3
@@ -181,4 +169,3 @@ No sensitive information is stored in the source code repository.
 * Implement least-privilege IAM policies
 
 ---
-
