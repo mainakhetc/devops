@@ -88,6 +88,7 @@ devops/
 │   ├── style.css
 │   ├── assets/
 │   └── README.md
+```
 ---
 
 # ✨ Key Features
@@ -161,38 +162,6 @@ The following secrets are configured:
 * CLOUDFRONT_DISTRIBUTION_ID
 
 No sensitive information is stored in the source code repository.
-
----
-
-## Screenshots
-
-## Repository Structure
-
-![Repository Structure](screenshots/repository-structure.png)
-
-## Successfull Deployment
-
-![Successfull Deployment](screenshots/workflow-run.png)
-
-## GitHub Actions Workflow
-
-![GitHub Actions Workflow](screenshots/github-actions-success.png)
-
-## GitHub Secrets
-
-![GitHub Secrets](screenshots/github-secrets.png)
-
-## Amazon S3 Bucket
-
-![S3 Bucket](screenshots/s3-bucket.png)
-
-## Amazon CloudFront Destributiom
-
-![CloudFront Distribution](screenshots/cloudfront-distribution.png)
-
-## Website Homepage
-
-![Website Homepage](screenshots/website-homepage.png)
 
 ---
 
