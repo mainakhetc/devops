@@ -42,6 +42,14 @@ Developer ───────────────────────�
 | Frontend | HTML5, CSS3 |
 ---
 
+## Screenshots
+
+## Repository Structure
+
+![Repository Structure](screenshots/repository-structure.png)
+
+---
+
 # 📂 Repository Structure
 
 ```
