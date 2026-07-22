@@ -5,9 +5,9 @@ on:
     branches:
       - main
     paths:
-      - "index.html"
-      - "style.css"
-      - ".github/workflows/deploy.yml"
+      - "aws-static-site-devops/index.html"
+      - "aws-static-site-devops/style.css"
+      - "aws-static-site-devops/.github/workflows/deploy-static-site.yml"
 
 jobs:
   deploy:
