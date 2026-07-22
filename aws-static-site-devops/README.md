@@ -134,14 +134,29 @@ No sensitive information is stored in the source code repository.
 
 ## Screenshots
 
-Add screenshots of:
+## Repository Structure
 
-* GitHub Repository
-* GitHub Actions Successful Workflow
-* Amazon S3 Bucket
-* CloudFront Distribution
-* Website Home Page
-* GitHub Secrets Configuration (mask sensitive values)
+![Repository Structure](screenshots/repository-structure.png)
+
+## GitHub Actions Workflow
+
+![GitHub Actions](screenshots/github-actions-success.png)
+
+## GitHub Secrets
+
+![S3 Bucket](screenshots/github-secrets.png)
+
+## Amazon S3 Bucket
+
+![S3 Bucket](screenshots/s3-bucket.png)
+
+## Amazon CloudFront Destributiom
+
+![S3 Bucket](screenshots/cloudfront-distribution.png)
+
+## Website Homepage
+
+![S3 Bucket](screenshots/website-homepage.png)
 
 ---
 
