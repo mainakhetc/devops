@@ -138,13 +138,17 @@ No sensitive information is stored in the source code repository.
 
 ![Repository Structure](screenshots/repository-structure.png)
 
+## Successfull Deployment
+
+![Successfull Deployment](screenshots/workflow-run.png)
+
 ## GitHub Actions Workflow
 
-![GitHub Actions](screenshots/github-actions-success.png)
+![GitHub Actions Workflow](screenshots/github-actions-success.png)
 
 ## GitHub Secrets
 
-![S3 Bucket](screenshots/github-secrets.png)
+![GitHub Secrets](screenshots/github-secrets.png)
 
 ## Amazon S3 Bucket
 
@@ -152,11 +156,11 @@ No sensitive information is stored in the source code repository.
 
 ## Amazon CloudFront Destributiom
 
-![S3 Bucket](screenshots/cloudfront-distribution.png)
+![CloudFront Distribution](screenshots/cloudfront-distribution.png)
 
 ## Website Homepage
 
-![S3 Bucket](screenshots/website-homepage.png)
+![Website Homepage](screenshots/website-homepage.png)
 
 ---
 
