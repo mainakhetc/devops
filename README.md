@@ -8,47 +8,8 @@ The primary goal of this repository is to gain practical experience through hand
 
 ---
 
-# 🎯 Objectives
-
-- Build real-world DevOps projects from beginner to advanced
-- Gain hands-on experience with AWS cloud services
-- Learn Infrastructure as Code (IaC)
-- Implement CI/CD pipelines
-- Automate infrastructure provisioning and deployments
-- Practice containerization and orchestration
-- Build production-inspired architectures
-- Document every project with implementation guides and lessons learned
-
----
-
-# 🛠️ Technology Stack
-
-### Cloud Platforms
-- Amazon Web Services (AWS)
-
-### Operating Systems
-- Linux (RHEL)
-- Amazon Linux
-
-### Version Control
-- Git
-- GitHub
-
-### CI/CD
-- GitHub Actions
-
 # 📚 Projects
 
 | # | Project | Technologies | Status |
 |---|----------|--------------|--------|
 | 1 | AWS Static Website CI/CD Pipeline | AWS S3, CloudFront, GitHub Actions, Git, HTML, CSS | ✅ Completed |
-
-# 📈 Learning Roadmap
-
-### ✅ Phase 1 – AWS Fundamentals
-- Static Website Hosting
-- Amazon S3
-- CloudFront
-- IAM
-- AWS CLI
-
