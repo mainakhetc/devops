@@ -1,11 +1,5 @@
 # AWS Static Website CI/CD Pipeline
 
-# Project Status
-
-✅ Completed
-
-Last Updated: July 2026
-
 # Project Overview
 
 This project demonstrates how to automate the deployment of a static website using AWS and GitHub Actions. Every code change pushed to the GitHub repository is automatically deployed to Amazon S3, and the Amazon CloudFront cache is invalidated so users always receive the latest version of the website.
